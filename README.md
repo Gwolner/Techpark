@@ -41,4 +41,4 @@ Para resolver este problema, surgiu a ideia de criar-se um sistema que possa fac
 
 ## Modelo Relacional
 
-<img src="diagrama_uml/uc_diagram.jpg" width="795" height="458" align="center">
+<img src="modelo_relacional/estacionamento_inteligente.png" width="795" height="458" align="center">
