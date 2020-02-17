@@ -46,20 +46,19 @@ Para resolver este problema, surgiu a ideia de criar-se um sistema que possa fac
 ## Script MySQL
 
 Criação do BD.
-```
+```mysql
 CREATE DATABASE estacionamento_inteligente;
 ```
-<br/>
 
 Declaração de uso do BD a ser manipulado.
+
+```mysql
+CREATE estacionamento_inteligente;
 ```
-USE estacionamento_inteligente;
-```
-<br/>
 
 Criação das tabelas com seus respectivos campos.
 
-```
+```mysql
 CREATE TABLE status_sensor(
 id_status_sensor INT,
 status VARCHAR(45) NOT NULL,
