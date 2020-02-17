@@ -123,3 +123,8 @@ FOREIGN KEY (id_controlador) REFERENCES controlador (id_controlador),
 FOREIGN KEY (id_sensor) REFERENCES sensor (id_sensor)
 );
 ```
+
+Exclusão do BD
+```mysql
+DROP DATABASE estacionamento_inteligente;
+```
