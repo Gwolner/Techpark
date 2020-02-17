@@ -53,7 +53,8 @@ CREATE DATABASE estacionamento_inteligente;
 Declaração de uso do BD a ser manipulado.
 
 ```mysql
-CREATE estacionamento_inteligente;
+USE estacionamento_inteligente;
+/*Ou clique duas vezes sobre o nome do BD.*/
 ```
 
 Criação das tabelas com seus respectivos campos.
