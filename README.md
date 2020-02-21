@@ -1,4 +1,4 @@
-# Estacionamento Inteligente <img src="img/mysql.png" width="80" height="40" align="right">
+# Techpark - Estacionamento Inteligente <img src="logo/mysql.png" width="80" height="40" align="right">
 
 Atividade da disciplina Análise e Projeto de Sistemas em que  foi proposto pela profª [Aida Araújo Ferreira](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4776702E0) uma situação-problema, bem como sua solução, afim de que sejam elaborados o diagrama UML de Caso de Uso, o Modelo Relacional e o BD MySQL.
 
@@ -14,7 +14,7 @@ Atualmente, encontrar uma vaga de estacionamento em centros urbanos é um grande
 
 Para resolver este problema, surgiu a ideia de criar-se um sistema que possa facilitar a vida dos motoristas: As informações sobre o estado da vaga serão enviadas através de uma rede sem fio a um servidor, que faz o processamento das informações e armazena as mesmas em um banco de dados para disponibilização aos usuários através de um sistema de informação geográfica (SIG). O SIG será responsável pelo gerenciamento da rede de sensores de vagas disponíveis para visualização na WEB ou em dispositivos móveis da configuração espacial da disponibilidade de vagas no estacionamento.
 
-<img src="fig/figura_estacionamento.JPG" width="800" height="400" align="center">
+<img src="img/figura_estacionamento.JPG" width="800" height="400" align="center">
 
 ## Diagrama de Caso de Uso
 
@@ -41,19 +41,19 @@ Para resolver este problema, surgiu a ideia de criar-se um sistema que possa fac
 
 ## Modelo Relacional
 
-<img src="modelo_relacional/estacionamento_inteligente.png" width="795" height="458" align="center">
+<img src="modelo_relacional/techpark.png" width="795" height="458" align="center">
 
 ## Script MySQL
 
 Criação do BD.
 ```mysql
-CREATE DATABASE estacionamento_inteligente;
+CREATE DATABASE techpark;
 ```
 
 Declaração de uso do BD a ser manipulado.
 
 ```mysql
-USE estacionamento_inteligente;
+USE techpark;
 /*Ou clique duas vezes sobre o nome do BD.*/
 ```
 
@@ -126,5 +126,5 @@ FOREIGN KEY (id_sensor) REFERENCES sensor (id_sensor)
 
 Exclusão do BD
 ```mysql
-DROP DATABASE estacionamento_inteligente;
+DROP DATABASE techpark;
 ```
