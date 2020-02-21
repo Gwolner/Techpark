@@ -1,6 +1,6 @@
-CREATE DATABASE estacionamento_inteligente;
+CREATE DATABASE techpark;
 
-USE estacionamento_inteligente;
+USE techpark;
 
 
 CREATE TABLE status_sensor(
